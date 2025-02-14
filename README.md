@@ -7,11 +7,11 @@ Proyek ini hanya untuk experimen dan edukasi semata
 
 ## Instal python (lewati jika sudah)
 
-Instal python3:
+1. **Instal python3:**
    ```bash
    sudo apt install python3
    ```
-Instal PIP:
+2. **Instal PIP:**
    ```bash
    sudo apt install python3-pip
    ```
@@ -32,7 +32,7 @@ Instal paket
 ## Aplikasi:
 
 1. **Clone repositori ini**:
-2. 
+ 
    ```bash
    git clone https://github.com/moraevx/assister.git
    cd assister
