@@ -7,41 +7,38 @@ Proyek ini hanya untuk experimen dan edukasi semata
 
 ## Instal python (lewati jika sudah)
 
-Instal python3 
+Instal python3:
    ```bash
    sudo apt install python3
    ```
-Instal PIP
+Instal PIP:
    ```bash
    sudo apt install python3-pip
    ```
-Verifikasi instalasi
+Verifikasi instalasi:
    ```bash
    python3 --version
-   pip3 --version
    ```
-### Paket Python PIP
-
+### Paket Python:
+Cari paket yang sesuai
    ```bash
-   sudo apt install pipx
+   apt search python3-requests
+   apt search python3-termcolor
    ```
+Instal paket
    ```bash
-   pipx ensurepath
+   sudo apt install python3-requests python3-termcolor
    ```
-   ```bash
-   pip install requests termcolor
-   ```
-
-## Aplikasi
+## Aplikasi:
 
 1. **Clone repositori ini**:
-
+2. 
    ```bash
    git clone https://github.com/moraevx/assister.git
    cd assister
    ```
 
-2. **Siapkan file `auth.txt`**:
+3. **Siapkan file `auth.txt`**:
 
    - Buat file bernama `auth.txt` di direktori yang sama dengan skrip.
    - Tambahkan token otentikasi Anda, satu token per baris. Setiap token mewakili akun yang berbeda.
@@ -53,7 +50,7 @@ Verifikasi instalasi
    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ8...
    ```
 
-3. **Jalankan skrip**:
+4. **Jalankan skrip**:
 
    ```bash
    python3 main.py
@@ -80,7 +77,7 @@ Untuk mengambil `auth` dari cookies di browser:
 
    - Sebuah prompt akan muncul dengan `auth`. Salin token tersebut dan tempelkan ke file `auth.txt`.
 
-## Catatan
+## Catatan:
 
 - Pastikan Anda memperbarui file `auth.txt` dengan token yang valid secara berkala agar otomasi tetap berfungsi.
 - Skrip akan berhenti selama 24 jam setelah setiap kali dijalankan, menunggu untuk mengklaim poin harian berikutnya. Jika ingin bekerja selama 24 jam maka jalankan di dalam screen
