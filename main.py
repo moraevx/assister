@@ -35,7 +35,7 @@ def get_account_data(headers):
 
 # Function to display account data with color and manual formatting
 def display_account_data(data):
-    print(colored("\n=== ReRowet ===", 'cyan'))
+    print(colored("\n=== moraevx ===", 'cyan'))
     print(f"{colored('ID:', 'yellow')} {data['id']}")
     print(f"{colored('Username:', 'yellow')} {data['username']}")
     print(f"{colored('Wallet ID:', 'yellow')} {data['wallet_id']}")
