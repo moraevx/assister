@@ -19,6 +19,12 @@ Sebelum menjalankan skrip, pastikan Anda telah menginstal yang berikut:
 ### Paket Python
 
 Instal paket Python yang diperlukan dengan perintah berikut:
+```bash
+sudo apt install pipx
+```
+```bash
+pipx ensurepath
+```
 
 ```bash
 pip install requests termcolor
@@ -29,7 +35,7 @@ pip install requests termcolor
 1. **Clone repositori ini**:
 
    ```bash
-   git clone https://github.com/Semutireng22/assister.git
+   git clone https://github.com/moraevx/assister.git
    cd assister
    ```
 
