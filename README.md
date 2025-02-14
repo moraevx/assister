@@ -1,36 +1,38 @@
-# Skrip Daily Assisterr.ai
+# Claim Daily Assisterr
 
 Proyek ini hanya untuk experimen dan edukasi semata
 
-Skrip ini mengotomatiskan klaim poin harian Assisterr.ai menggunakan token otentikasi yang disediakan. Skrip ini mendukung beberapa akun dan menampilkan detail akun dalam format yang menarik dan berwarna.
+   - Scrip yang digunakan untuk claim daily assister
+   - Mendukung banyak akun
 
-## Fitur
+## Instal python (lewati jika sudah)
 
-- Mengklaim poin harian secara otomatis dari Assisterr.ai.
-- Mendukung banyak akun
+Instal python3 
+   ```bash
+   sudo apt install python3
+   ```
+Instal PIP
+   ```bash
+   sudo apt install python3-pip
+   ```
+Verifikasi instalasi
+   ```bash
+   python3 --version
+   pip3 --version
+   ```
+### Paket Python PIP
 
-## Persyaratan
+   ```bash
+   sudo apt install pipx
+   ```
+   ```bash
+   pipx ensurepath
+   ```
+   ```bash
+   pip install requests termcolor
+   ```
 
-Sebelum menjalankan skrip, pastikan Anda telah menginstal yang berikut:
-
-- **Python 3.x**
-- **pip** (pengelola paket Python)
-
-### Paket Python
-
-Instal paket Python yang diperlukan dengan perintah berikut:
-```bash
-sudo apt install pipx
-```
-```bash
-pipx ensurepath
-```
-
-```bash
-pip install requests termcolor
-```
-
-## Cara Penggunaan
+## Aplikasi
 
 1. **Clone repositori ini**:
 
@@ -59,9 +61,8 @@ pip install requests termcolor
 
    Skrip ini akan secara otomatis:
    - Mengklaim poin harian untuk setiap akun.
-   - Mengambil dan menampilkan detail akun dalam format yang menarik.
 
-## Cara Mengambil Token Otentikasi
+## Mengambil Token Otentikasi
 
 Untuk mengambil `auth` dari cookies di browser:
 
@@ -83,5 +84,7 @@ Untuk mengambil `auth` dari cookies di browser:
 
 - Pastikan Anda memperbarui file `auth.txt` dengan token yang valid secara berkala agar otomasi tetap berfungsi.
 - Skrip akan berhenti selama 24 jam setelah setiap kali dijalankan, menunggu untuk mengklaim poin harian berikutnya. Jika ingin bekerja selama 24 jam maka jalankan di dalam screen
+
+
 
 
