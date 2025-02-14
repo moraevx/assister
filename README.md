@@ -19,7 +19,7 @@ Verifikasi instalasi:
    ```bash
    python3 --version
    ```
-### Paket Python:
+## Paket Python:
 Cari paket yang sesuai
    ```bash
    apt search python3-requests
