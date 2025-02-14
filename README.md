@@ -15,30 +15,30 @@ Proyek ini hanya untuk experimen dan edukasi semata
    ```bash
    sudo apt install python3-pip
    ```
-Verifikasi instalasi:
+3. **Verifikasi instalasi:**
    ```bash
    python3 --version
    ```
 ## Paket Python:
-Cari paket yang sesuai
+1. **Cari paket yang sesuai:**
    ```bash
    apt search python3-requests
    apt search python3-termcolor
    ```
-Instal paket
+2. **Instal paket:**
    ```bash
    sudo apt install python3-requests python3-termcolor
    ```
 ## Aplikasi:
 
-1. **Clone repositori ini**:
+1. **Clone repositori ini:**
  
    ```bash
    git clone https://github.com/moraevx/assister.git
    cd assister
    ```
 
-3. **Siapkan file `auth.txt`**:
+3. **Siapkan file `auth.txt`:**
 
    - Buat file bernama `auth.txt` di direktori yang sama dengan skrip.
    - Tambahkan token otentikasi Anda, satu token per baris. Setiap token mewakili akun yang berbeda.
@@ -50,7 +50,7 @@ Instal paket
    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ8...
    ```
 
-4. **Jalankan skrip**:
+4. **Jalankan skrip:**
 
    ```bash
    python3 main.py
@@ -63,11 +63,11 @@ Instal paket
 
 Untuk mengambil `auth` dari cookies di browser:
 
-1. **Buka Developer Tools**:
+1. **Buka Developer Tools:**
    - Tekan `F12` atau `Ctrl + Shift + I` di Windows/Linux, atau `Cmd + Option + I` di macOS.
    - Buka tab **Console**.
 
-2. **Jalankan skrip berikut di console**:
+2. **Jalankan skrip berikut di console:**
 
    ```javascript
    let cookies = document.cookie.split('; ');
