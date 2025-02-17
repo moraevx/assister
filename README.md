@@ -25,7 +25,7 @@ Proyek ini hanya untuk experimen dan edukasi semata
    sudo apt install python3-requests python3-termcolor python3-colorama python3-pyfiglet
    ```
    
-## Aplikasi:
+## Clone Repo Dan Menjalankan:
 
 1. **Clone repositori ini:**
  
