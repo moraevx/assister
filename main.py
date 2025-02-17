@@ -2,7 +2,7 @@ import requests
 import time
 from termcolor import colored
 import pyfiglet
-from colorama import Fore
+from colorama import init, Fore, Style
 
 init(autoreset=True)
 
