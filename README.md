@@ -5,7 +5,7 @@ Proyek ini hanya untuk experimen dan edukasi semata
    - Scrip yang digunakan untuk claim daily assister
    - Mendukung banyak akun
 
-## Instal python (lewati jika sudah)
+## Instal python
 
 1. **Instal python3:**
    ```bash
