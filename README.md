@@ -33,15 +33,8 @@ Proyek ini hanya untuk experimen dan edukasi semata
    git clone https://github.com/moraevx/assister.git
    cd assister
    ```
-
-2. **Instal paket:**
    
-   ```bash
-   pip install -r requirements1.txt
-   pip install -r requirements2.txt
-   ```
-
-3. **Siapkan file `auth.txt`:**
+2. **Siapkan file `auth.txt`:**
 
    - Buat file bernama `auth.txt` di direktori yang sama dengan skrip.
    - Tambahkan token otentikasi Anda, satu token per baris. Setiap token mewakili akun yang berbeda.
@@ -53,7 +46,7 @@ Proyek ini hanya untuk experimen dan edukasi semata
    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ8...
    ```
 
-4. **Jalankan skrip:**
+3. **Jalankan skrip:**
 
    ```bash
    python3 main.py
