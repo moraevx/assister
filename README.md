@@ -19,16 +19,7 @@ Proyek ini hanya untuk experimen dan edukasi semata
    ```bash
    python3 --version
    ```
-## Paket Python:
-1. **Cari paket yang sesuai:**
-   ```bash
-   apt search python3-requests
-   apt search python3-termcolor
-   ```
-2. **Instal paket:**
-   ```bash
-   sudo apt install python3-requests python3-termcolor
-   ```
+   
 ## Aplikasi:
 
 1. **Clone repositori ini:**
@@ -36,6 +27,13 @@ Proyek ini hanya untuk experimen dan edukasi semata
    ```bash
    git clone https://github.com/moraevx/assister.git
    cd assister
+   ```
+
+2. **Instal paket:**
+   
+   ```bash
+   pip install -r requirements1.txt
+   pip install -r requirements2.txt
    ```
 
 3. **Siapkan file `auth.txt`:**
