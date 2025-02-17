@@ -19,6 +19,11 @@ Proyek ini hanya untuk experimen dan edukasi semata
    ```bash
    python3 --version
    ```
+4. **Instal Paket**
+   ```bash
+   sudo apt update
+   sudo apt install python3-requests python3-termcolor python3-colorama python3-pyfiglet
+   ```
    
 ## Aplikasi:
 
