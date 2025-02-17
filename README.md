@@ -1,6 +1,13 @@
 # Claim Daily Assisterr
 
-Proyek ini hanya untuk experimen dan edukasi semata
+Proyek ini hanya untuk experimen dan edukasi semata, gunakan dengan bijak. kami tidak bertanggung jawab apabila proyek ini digunakan untuk tujuan yang tidak tepat.
+**Gunakan dengan bijak** kami tidak bertanggung jawab apa bila akun yang anda gunakan di tangguhkan sementara atau di blokir secara permanet.
+##Fitur
+- Waktu Jeda dapat di atur
+  
+i'm Moraevx 
+
+**Terima Kasih**
 
    - Scrip yang digunakan untuk claim daily assister
    - Mendukung banyak akun
