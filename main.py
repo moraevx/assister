@@ -1,6 +1,12 @@
 import requests
 import time
 from termcolor import colored
+from colorama import Fore
+
+init(autoreset=True)
+
+ascii_art = pyfiglet.figlet_format("EVERLEX AIRDROP", font="block")
+print(Fore.CYAN + ascii_art)
 
 # Baca token dari file auth.txt
 def read_auth_tokens(filename='auth.txt'):
@@ -51,7 +57,7 @@ def main():
             headers = {"Authorization": f"Bearer {token}"}
             
             # Claim daily points
-            print(colored("\n=== Processing Account ===", 'magenta'))
+            print(colored("\n=== Processing Account / http://t.me/EverlexAirdrop ===", 'magenta'))
             claim_daily_points(headers)
             
             # Get and display account data
